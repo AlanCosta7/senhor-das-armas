@@ -1,0 +1,40 @@
+{
+  "name": "senhor-das-armas",
+  "version": "0.0.1",
+  "description": "Despachante de armas",
+  "productName": "Senhor das armas",
+  "author": "Alan Costa <alanpc7@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "quasar dev",
+    "build": "quasar build -m pwa",
+    "hosting": "firebase deploy --only hosting",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.14.0",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14",
+    "workbox-build": "^6.5.0",
+    "workbox-cacheable-response": "^6.5.0",
+    "workbox-core": "^6.5.0",
+    "workbox-expiration": "^6.5.0",
+    "workbox-precaching": "^6.5.0",
+    "workbox-routing": "^6.5.0",
+    "workbox-strategies": "^6.5.0"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
